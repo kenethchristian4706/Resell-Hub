@@ -68,3 +68,19 @@ It is built with **Django REST Framework** for the backend, **React.js** for the
 
 ## 📂 Project Structure
 
+resell-hub/
+│
+├── backend/ # Django + DRF API
+│ ├── users/ # User app
+│ ├── products/ # Product, Category, Wishlist
+│ ├── chat/ # Real-time chat
+│ ├── resellhub/ # Project settings
+│ ├── manage.py
+│
+├── frontend/ # React application
+│ ├── src/
+│ ├── public/
+│ ├── package.json
+│
+├── README.md
+└── requirements.txt
